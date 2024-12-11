@@ -1,29 +1,27 @@
-Library API
+# Library API
 
-Este proyecto fue generado usando FastAPI, SQLAlchemy, Pytest & MySQL.
-
-
--Utiliza los siguientes comandos en orden para hacer un correcto uso del proyecto.
-
-Crear & Activar Entorno Virtual:
-library_api> py -m venv virtual
-library_api> .\virtual\Scripts\activate
-
-Iniciar Aplicación:
-library_api> uvicorn app.main:app
-
-Iniciar Tests:
-library_api> pytest
+Este proyecto fue generado usando FastAPI, SQLAlchemy, Pytest & MySQL.<br/><br/>
 
 
--Base de Datos:
+# Crear & Activar Entorno Virtual:<br/>
+library_api> py -m venv virtual<br/>
+library_api> .\virtual\Scripts\activate<br/><br/>
 
-Cambiar los datos de conexion en el archivo de la ruta: app/config/database.py por los datos de tu entorno.
-Crear base de datos: library
-Importar el archivo: library.sql
+# Iniciar Aplicación:<br/>
+library_api> uvicorn app.main:app<br/><br/>
+
+# Iniciar Tests:<br/>
+library_api> pytest<br/><br/>
 
 
--Librerias:
+# Base de Datos:<br/>
 
-Instalar las librerias que se encuentan en el archivo requirements.txt.
+Cambiar los datos de conexion en el archivo de la ruta: app/config/database.py por los datos de tu entorno.<br/>
+Crear base de datos: library<br/>
+Importar el archivo: library.sql<br/><br/>
+
+
+# Librerias:<br/>
+
+Instalar las librerias que se encuentan en el archivo requirements.txt.<br/>
 library_api> pip install -r requirements.txt
