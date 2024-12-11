@@ -1,6 +1,6 @@
 # Library API
 
-Este proyecto fue generado usando FastAPI, SQLAlchemy, Pytest & MySQL.<br/><br/>
+Este proyecto fue creado usando FastAPI, SQLAlchemy, Pytest & MySQL.<br/><br/>
 
 
 # Crear & Activar Entorno Virtual:<br/>

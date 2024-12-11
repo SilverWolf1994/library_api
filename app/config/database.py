@@ -4,7 +4,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 database_username = 'root'
 database_password = ''
 database_host = 'localhost'
-database_port = '3307'
+database_port = '3306'
 database_name = 'library'
 
 engine = create_engine('mysql+pymysql://{0}:{1}@{2}:{3}/{4}'.
